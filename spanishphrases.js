@@ -259,7 +259,7 @@ const spanishSounds = [{
     },
     {
         "PhraseID": "28",
-        "English": "",
+        "English": "I want coffee please",
         "Spanish": "",
         "English_Audio": "",
         "Spanish_Audio": ""
