@@ -245,8 +245,8 @@ const spanishSounds = [{
     },
     {
         "PhraseID": "26",
-        "English": "",
-        "Spanish": "",
+        "English": "We want to dance tonight",
+        "Spanish": "De seamos bailar esta noche",
         "English_Audio": "",
         "Spanish_Audio": ""
     },
