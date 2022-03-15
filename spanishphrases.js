@@ -40,6 +40,7 @@ function CreateTableFromJSON() {
                 element.controls = "controls";
                 element.src = "Sounds_mp3/Spanish_" + ((i * 2) + 1) + ".mp3"
                 element.type = "audio/mpeg";
+                element.preload = "metadata";
                 tabCell.appendChild(element)
                     // tabCell.innerHTML = "Sounds/Spanish_" + ((i * 2) + 1) + ".wav"
                     // tabCell.innerHTML = '<audio id="audio-player" controls="controls" type="audio/mpeg"> src="Sounds/Spanish_" + j + ".wav"';
@@ -49,6 +50,7 @@ function CreateTableFromJSON() {
                 element.controls = "controls";
                 element.src = "Sounds_mp3/Spanish_" + ((i * 2) + 2) + ".mp3"
                 element.type = "audio/mpeg";
+                element.preload = "metadata";
                 tabCell.appendChild(element)
                     // tabCell.innerHTML = "Sounds/Spanish_" + ((i * 2) + 2) + ".wav"
             } else {
